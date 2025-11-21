@@ -18,6 +18,7 @@ CORS(app)
 # --- Load NLTK Resources (Required for Render) ---
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
+nltk.download('punkt_tab', quiet=True)  # <--- THIS IS THE NEW LINE YOU NEED
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
 
